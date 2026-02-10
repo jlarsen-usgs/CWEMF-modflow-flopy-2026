@@ -36,8 +36,69 @@ Eric Morway, USGS Nevada Water Science Center
         - Heat transport
         - Solute transport
 
-## Required software:
-   - Anaconda, Miniforge conda (**recomended**), or Micromamba
-        - Miniforge conda installer can be downloaded from here: [Miniforge](https://github.com/conda-forge/miniforge?tab=readme-ov-file#requirements-and-installers)
+## Required software and installation:
+
+### Software Installation
+The following instructions will guide you through the installation process and setup a conda environment for the class
+
+#### 1. Install Miniforge
+   - Go to the miniforge website and download the installer [(https://github.com/conda-forge/miniforge)](https://github.com/conda-forge/miniforge) for your platform. If you have trouble downloading Miniforge in Microsoft Edge try another browser (e.g., Chrome)
+   - Run the installer program that you downloaded. On Windows the installer is called `Miniforge3-Windows-x86_64.exe`
+   - Click through the installer options, and **select "Just Me (recommended)"** if asked. Default installation options should be fine, with the exception that you should select and installation location that dows not have any special characters or spaces and that the install location is not on cloud storage (e.g., One Drive == BAD!)
+   - After installation, you should see "Miniforge prompt" as a program under the Windows start menu
+
+#### 2. Create an environment file
+We will use an environment file to create a containerized version of Python and the Python packages needed for the class. An environment file is simply a list of packages that we want to install in our environment
+
+   - Using a text editor, such as Notepad or Notepad++, create a file called environment.yml. It should contain the information in [this environment file](). Save this file to your hard drive, preferably in your user home folder so that it can be easily accessed in the next step. (Caution! Notepad will automatically append a .txt suffix to your file name; you don't want this to happen.)
+
+     Alternatively, clone this repository and use `environment.yml` directly
+
+   - **For MacOS and Linux users only!** You will need to add additional dependencies to the `environment.yml` file from step 1. The following dependencies are also required:
+     
+     **MacOS**
+     ```
+     - pkg-config
+     - openmpi<5.0.0
+     - gfortran
+     - petsc
+     - netcdf-fortran
+     - meson>=1.1.0
+     - ninja
+     ```
+
+     **Linux**
+     ```
+     - pkg-config
+     - openmpi
+     - gfortran
+     - petsc
+     - netcdf-fortran
+     - meson>=1.1.0
+     - ninja
+     ```
+
+#### 3. Create the `cwemf-modflow` environment
+   - Start the miniforge prompt from the Windows start menu (or equivalent on MacOS or Linux) to bring up a terminal.
+   - At the terminal prompt enter the following command, where <path to file> is the location of the environment.yml file that you created in Part 2. You will need to be connected to the internet for this to work properly. The installation process may take a couple of minutes.
+     ```
+     mamba env create --file <path to file>/environment.yml
+     ```
+   - After the environment has been installed, you may activate this new class environment with the following command
+     ```
+     mamba activate cwemf-modflow
+     ```
+   - The windows terminal prompt should reflect the current environment
+     ```
+     (cwemf-modflow) C:\Users\JaneDoe>
+     ```
+   - We will be using jupyter notebooks in the class. To test if jupyter is installed and working properly use the following command. After entering this command, the default web browswer should open to a Jupyter Lab page.
+     ```
+     jupyter lab
+     ```
+The setup should be complete at this point. 
+     
+     
+
 
      
