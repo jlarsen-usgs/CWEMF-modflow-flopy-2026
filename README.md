@@ -50,7 +50,7 @@ The following instructions will guide you through the installation process and s
 #### 2. Create an environment file
 We will use an environment file to create a containerized version of Python and the Python packages needed for the class. An environment file is simply a list of packages that we want to install in our environment
 
-   - Using a text editor, such as Notepad or Notepad++, create a file called environment.yml. It should contain the information in [this environment file](). Save this file to your hard drive, preferably in your user home folder so that it can be easily accessed in the next step. (Caution! Notepad will automatically append a .txt suffix to your file name; you don't want this to happen.)
+   - Using a text editor, such as Notepad or Notepad++, create a file called environment.yml. It should contain the information in [this environment file](https://github.com/jlarsen-usgs/CWEMF-modflow-flopy-2026/blob/main/environment.yml). Save this file to your hard drive, preferably in your user home folder so that it can be easily accessed in the next step. (Caution! Notepad will automatically append a .txt suffix to your file name; you don't want this to happen.)
 
      Alternatively, clone this repository and use `environment.yml` directly
 
