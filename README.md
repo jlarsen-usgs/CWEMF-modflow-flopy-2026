@@ -9,7 +9,7 @@ Eric Morway, U.S. Geological Survey, Nevada Water Science Center
 
 ## Class Schedule:
 *Thursday, June 25th*
-|Time      |Topic                                                                     |Duration                          |
+|Time      |Topic                                                                     |Duration, Lead                    |
 |----------|--------------------------------------------------------------------------|----------------------------------|
 |8:30 AM   |Introductions & Class Overview                                            |30 minutes                        |
 |9:00 AM   |Overview of the groundwater flow equation and MODFLOW CVFD methods        |1 hour 30 minutes                 |
