@@ -3,6 +3,11 @@ MODFLOW is a three-dimensional hydrologic simulator that is developed and mainta
 
 The purpose of this course is to provide a high-level overview of MODFLOW 6 and FloPy coupled with in-depth activities. Participants will learn how to construct, edit, and post-process models in a Python environment with FloPy. The course schedule is as follows:
 
+## Instructors: 
+Josh Larsen, USGS California Water Science Center 
+Eric Morway, USGS Nevada Water Science Center 
+
+## Class Schedule:
 *Thursday, June 25th*
    - Introductions (8:30 - 9:00 AM)
    - Overview of the groundwater flow equation and MODFLOW CVFD methods (9:00 - 10:30 AM)
@@ -30,4 +35,9 @@ The purpose of this course is to provide a high-level overview of MODFLOW 6 and 
         - Particle tracking
         - Heat transport
         - Solute transport
-    
+
+## Required software:
+   - Anaconda, Miniforge conda (**recomended**), or Micromamba
+        - Miniforge conda installer can be downloaded from here: [Miniforge](https://github.com/conda-forge/miniforge?tab=readme-ov-file#requirements-and-installers)
+
+     
