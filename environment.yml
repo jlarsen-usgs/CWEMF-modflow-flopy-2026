@@ -1,0 +1,43 @@
+name: cwemf-modflow
+channels:
+  - conda-forge
+dependencies:
+
+  # primary dependencies
+  - python
+  - pip
+  - git
+
+  # jupyter dependencies
+  - jupyter
+  - jupyterlab
+  - jupyterlab_execute_time
+
+  # class dependencies
+  - dataretrieval
+  - fiona
+  - geojson
+  - geopandas
+  - shapely
+  - matplotlib
+  - pandas
+  - modflowapi
+  - modflow-devtools
+  - numpy
+  - openpyxl
+  - pyshp
+  - pymetis
+  - pyproj
+  - rasterio
+  - rasterstats
+  - rioxarray
+  - xarray
+  - requests
+  - rtree
+  - scipy
+  - statsmodels
+  - vtk
+
+  - pip:
+    # develop version of FloPy for any cutting edge changes
+    - https://github.com/modflowpy/flopy/archive/develop.zip
