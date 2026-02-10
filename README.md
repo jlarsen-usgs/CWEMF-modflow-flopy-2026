@@ -11,7 +11,7 @@ The purpose of this course is to provide a high-level overview of MODFLOW 6 and 
    - Constructing a first MODFLOW model by hand (part 1; 11:15 AM - 12:00 PM)
    - Lunch (12:00 - 1:00 PM)
    - Constructing a first MODFLOW model by hand (part 2; 1:00 - 1:30PM)
-   - Notes : should we have an into/overview of Python, Jupyter, Pandas, and Geopandas?
+   - *Notes : should we have an into/overview of Python, Jupyter, Pandas, and Geopandas?*
    - Introduction to FloPy and constucting a first MODFLOW model in Python (1:30 - 2:30 PM)
    - Break (2:30 - 2:45 PM)
    - Discretization strategies and workflows for Stuctured and Unstructured Grids (2:45 - 4:00 PM)
