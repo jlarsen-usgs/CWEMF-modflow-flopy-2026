@@ -4,7 +4,7 @@ MODFLOW is a three-dimensional hydrologic simulator that is developed and mainta
 The purpose of this course is to provide a high-level overview of MODFLOW 6 and FloPy coupled with in-depth activities. Participants will learn how to construct, edit, and post-process models in a Python environment with FloPy. The course schedule is as follows:
 
 ## Instructors: 
-Josh Larsen, USGS California Water Science Center 
+Josh Larsen, USGS California Water Science Center  
 Eric Morway, USGS Nevada Water Science Center 
 
 ## Class Schedule:
