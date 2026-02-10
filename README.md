@@ -44,7 +44,7 @@ The following instructions will guide you through the installation process and s
 #### 1. Install Miniforge
    - Go to the miniforge website and download the installer [(https://github.com/conda-forge/miniforge)](https://github.com/conda-forge/miniforge) for your platform. If you have trouble downloading Miniforge in Microsoft Edge try another browser (e.g., Chrome)
    - Run the installer program that you downloaded. On Windows the installer is called `Miniforge3-Windows-x86_64.exe`
-   - Click through the installer options, and **select "Just Me (recommended)"** if asked. Default installation options should be fine, with the exception that you should select and installation location that dows not have any special characters or spaces and that the install location is not on cloud storage (e.g., One Drive == BAD!)
+   - Click through the installer options, and **select "Just Me (recommended)"** if asked. Default installation options should be fine, with the exception that you should select and installation location that does not have any special characters or spaces and that the install location is not on cloud storage (e.g., One Drive == BAD!)
    - After installation, you should see "Miniforge prompt" as a program under the Windows start menu
 
 #### 2. Create an environment file
