@@ -9,19 +9,20 @@ Eric Morway, U.S. Geological Survey, Nevada Water Science Center
 
 ## Class Schedule:
 *Thursday, June 25th*
-|Time      |Topic                                                                     |Duration, Lead                    |
-|----------|--------------------------------------------------------------------------|----------------------------------|
-|8:30 AM   |Introductions & Class Overview                                            |30 minutes                        |
-|9:00 AM   |Overview of the groundwater flow equation and MODFLOW CVFD methods        |1 hour 30 minutes                 |
-|10:30 AM  |Break                                                                     |15 minutes                        |
-|10:45 AM  |Overview of MODFLOW input and output                                      |30 minutes                        |
-|11:15 AM  |Constructing a first MODFLOW model by hand (Part 1)                       |45 minutes                        |
-|12:00 PM  |Lunch                                                                     |1 hour                            |
-|1:00 PM   |Constructing a first MODFLOW model by hand (Part 2)                       |30 minutes                        |
+|Time      |Topic                                                                          |Duration, Lead                    |
+|----------|-------------------------------------------------------------------------------|----------------------------------|
+|8:30 AM   |Introductions & Class Overview                                                 |30 minutes                        |
+|9:00 AM   |Overview of the groundwater flow equation and MODFLOW CVFD methods             |1 hour 30 minutes                 |
+|10:30 AM  |Break                                                                          |15 minutes                        |
+|10:45 AM  |Overview of MODFLOW input and output                                           |30 minutes                        |
+|11:15 AM  |Constructing a first MODFLOW model by hand (Part 1)                            |45 minutes                        |
+|12:00 PM  |Lunch                                                                          |1 hour                            |
+|1:00 PM   |Constructing a first MODFLOW model by hand (Part 2)                            |30 minutes                        |
+|1:30 PM   |Python overview and refresher (Jupyter, Python Basics, Pandas, Geopandas)      |1 hour                            |
+|2:30 PM   |Break                                                                          |15 minutes                        |
+|2:45 PM   |Intro to FloPy and constructing a first MODFLOW model in Python                |1 hour                            |
+|3:45 PM   |Discretization workflows for constructing Structured and Unstructured Grids    |45 minutes (part 1)               |
 
-   - *Notes : should we have an into/overview of Python, Jupyter, Pandas, and Geopandas?*
-   - Introduction to FloPy and constucting a first MODFLOW model in Python (1:30 - 2:30 PM)
-   - Break (2:30 - 2:45 PM)
    - Discretization strategies and workflows for Stuctured and Unstructured Grids (2:45 - 4:00 PM)
    - Strategies for translating geospatial and temporally varying data into model boundary conditions (Part 1; 4:00 - 4:30PM)
 
