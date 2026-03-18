@@ -93,11 +93,11 @@ We will use an environment file to create a containerized version of Python and 
    - Start the miniforge prompt from the Windows start menu (or equivalent on MacOS or Linux) to bring up a terminal.
    - At the terminal prompt enter the following command, where <path to file> is the location of the environment.yml file that you created in Part 2. You will need to be connected to the internet for this to work properly. The installation process may take a couple of minutes.
      ```
-     mamba env create --file <path to file>/environment.yml
+     conda env create --file <path to file>/environment.yml
      ```
    - After the environment has been installed, you may activate this new class environment with the following command
      ```
-     mamba activate cwemf-modflow
+     conda activate cwemf-modflow
      ```
    - The windows terminal prompt should reflect the current environment
      ```
