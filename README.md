@@ -9,34 +9,34 @@ Eric Morway, U.S. Geological Survey, Nevada Water Science Center
 
 ## Class Schedule:
 ### Thursday, June 25th
-|Time      |Topic                                                                                 |Duration, Lead                    |
-|----------|--------------------------------------------------------------------------------------|----------------------------------|
-|8:30 AM   |Introductions & Class Overview                                                        |30 minutes                        |
-|9:00 AM   |Overview of the groundwater flow equation and MODFLOW CVFD methods                    |1 hour 30 minutes                 |
-|10:30 AM  |Break                                                                                 |15 minutes                        |
-|10:45 AM  |Overview of MODFLOW input and output                                                  |30 minutes                        |
-|11:15 AM  |Constructing a first MODFLOW model by hand (Part 1)                                   |45 minutes                        |
-|12:00 PM  |Lunch                                                                                 |1 hour                            |
-|1:00 PM   |Constructing a first MODFLOW model by hand (Part 2)                                   |30 minutes                        |
-|1:30 PM   |Python overview and refresher (Jupyter, Python Basics, Pandas, Geopandas)             |1 hour                            |
-|2:30 PM   |Break                                                                                 |15 minutes                        |
-|2:45 PM   |Intro to FloPy and constructing a first MODFLOW model in Python                       |1 hour                            |
-|3:45 PM   |Discretization workflows for constructing Structured and Unstructured Grids (part 1)  |45 minutes                        |
-|4:30 PM   |Wrap up for the Day                                                                   |                                  |
+| Time     | Topic                                                                                | Duration          | Lead          |
+|----------|--------------------------------------------------------------------------------------|-------------------|---------------|
+| 8:30 AM  | Introductions & Class Overview                                                       | 30 minutes        | Larsen/Morway |
+| 9:00 AM  | Overview of the groundwater flow equation and MODFLOW CVFD methods                   | 1 hour 30 minutes | Larsen        |
+| 10:30 AM | Break                                                                                | 15 minutes        |               |
+| 10:45 AM | MODFLOW history and background                                                       | 30 minutes        |               |
+| 11:15 AM | Getting started with MODFLOW 6 (Structure, Inputs, and Outputs)                      | 45 minutes        |               |
+| 12:00 PM | Lunch                                                                                | 1 hour            |               |
+| 1:00 PM  | Constructing a first MODFLOW model by hand                                           | 1 minutes         |               |
+| 2:00 PM  | Python overview and refresher (Jupyter, Python Basics) (part 1)                      | 1 hour            |               |
+| 2:30 PM  | Break                                                                                | 15 minutes        |               |
+| 2:45 PM  | Python overview and refresher (Pandas, Geopandas) (part 2)                           | 30 minutes        |               |
+| 3:15 PM  | Intro to FloPy and constructing a first MODFLOW model in Python                      | 45 minutes        |               |
+| 4:00 PM  | Discretization workflows for constructing Structured and Unstructured Grids (part 1) | 30 minutes        |               |
+| 4:30 PM  | Wrap up for the Day                                                                  |                   |               |
 
 ### Friday, June 26th
-|Time      |Topic                                                                                            |Duration, Lead                    |
-|----------|-------------------------------------------------------------------------------------------------|----------------------------------|
-|8:30 AM   |Discretization workflows for constructing Structured and Unstructured Grids (part 2)             |30 minutes                        |
-|9:00 AM   |Workflows for translating geospatial and temporally varying data into model inputs               |1 hour 30 minutes                 |
-|10:30 AM  |Break                                                                                            |15 minutes                        |
-|10:45 AM  |MODFLOW output: post-processing and analysis, Zonebudget                                         |45 minutes                        |
-|11:30 AM  |Putting it all together - Class project: building a model in Python from disparate data (part 1) |30 minutes                        |
-|12:00 PM  |Lunch                                                                                            |1 hour                            |
-|1:00 PM   |Putting it all together - Class project: building a model in Python from disparate data (part 2) |2 hours 30 minutes                |
-|3:30 PM   |Project wrap up and debrief                                                                      |30 minutes                        |
-|4:00 PM   |                                                                                                 |                                  |
-|4:30 PM   |Class ends                                                                                       |                                  |
+| Time     | Topic                                                                                            | Duration, Lead    | Lead |
+|----------|--------------------------------------------------------------------------------------------------|-------------------|------|
+| 8:30 AM  | Discretization workflows for constructing Structured and Unstructured Grids (part 2)             | 30 minutes        |      |
+| 9:00 AM  | Workflows for translating geospatial and temporally varying data into model inputs               | 1 hour 30 minutes |      |
+| 10:30 AM | Break                                                                                            | 15 minutes        |      |
+| 10:45 AM | MODFLOW output: post-processing and analysis, Zonebudget                                         | 45 minutes        |      |
+| 11:30 AM | Putting it all together - Class project: building a model in Python from disparate data (part 1) | 30 minutes        |      |
+| 12:00 PM | Lunch                                                                                            | 1 hour            |      |
+| 1:00 PM  | Putting it all together - Class project: building a model in Python from disparate data (part 2) | 3 hours           |      |
+| 4:00 PM  | Project wrap up and debrief                                                                      | 30 minutes        |      |
+| 4:30 PM  | Class ends                                                                                       |                   |      |
 
   *Notes*
    - Advanced topics that could be covered:
