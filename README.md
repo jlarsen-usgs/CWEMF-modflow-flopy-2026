@@ -17,7 +17,7 @@ Eric Morway, U.S. Geological Survey, Nevada Water Science Center
 | 10:45 AM | MODFLOW history and background                                                       | 30 minutes        |               |
 | 11:15 AM | Getting started with MODFLOW 6 (Structure, Inputs, and Outputs)                      | 45 minutes        |               |
 | 12:00 PM | Lunch                                                                                | 1 hour            |               |
-| 1:00 PM  | Constructing a first MODFLOW model by hand                                           | 1 minutes         |               |
+| 1:00 PM  | Constructing a first MODFLOW model by hand                                           | 1 hour            |               |
 | 2:00 PM  | Python overview and refresher (Jupyter, Python Basics) (part 1)                      | 1 hour            |               |
 | 2:30 PM  | Break                                                                                | 15 minutes        |               |
 | 2:45 PM  | Python overview and refresher (Pandas, Geopandas) (part 2)                           | 30 minutes        |               |
