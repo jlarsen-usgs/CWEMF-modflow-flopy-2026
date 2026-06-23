@@ -35,4 +35,7 @@ dependencies:
   - rtree
   - scipy
   - statsmodels
-  - flopy
+  
+  - pip:
+    # develop version of FloPy for any cutting edge changes
+    - https://github.com/modflowpy/flopy/archive/develop.zip
