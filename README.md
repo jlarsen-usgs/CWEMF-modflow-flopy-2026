@@ -14,32 +14,32 @@ Eric Morway, U.S. Geological Survey, Nevada Water Science Center
 | 8:30 AM  | Introductions & Class Overview                                                       | 30 minutes        | Larsen/Morway |
 | 9:00 AM  | Overview of the groundwater flow equation and MODFLOW CVFD methods                   | 1 hour 15 minutes | Larsen        |
 | 10:30 AM | Break                                                                                | 15 minutes        |               |
-| 10:45 AM | MODFLOW history and background                                                       | 45 minutes        |               |
-| 11:15 AM | Getting started with MODFLOW 6 (Structure, Inputs, and Outputs)                      | 45 minutes        |               |
+| 10:45 AM | MODFLOW history and background                                                       | 45 minutes        | Morway        |
+| 11:15 AM | Getting started with MODFLOW 6 (Structure, Inputs, and Outputs)                      | 45 minutes        | Morway        |
 | 12:00 PM | Lunch                                                                                | 1 hour            |               |
-| 1:00 PM  | Constructing a first MODFLOW model by hand                                           | 1 hour            |               |
+| 1:00 PM  | Constructing a first MODFLOW model by hand                                           | 1 hour            | Morway        |
 | 2:00 PM  | Python overview and refresher (Jupyter, Python Basics) (part 1)                      | 1 hour            |               |
 | 2:30 PM  | Break                                                                                | 15 minutes        |               |
 | 2:45 PM  | Python overview and refresher (Pandas, Geopandas) (part 2)                           | 30 minutes        |               |
-| 3:15 PM  | Intro to FloPy and constructing a first MODFLOW model in Python                      | 45 minutes        |               |
-| 4:00 PM  | Discretization workflows for constructing Structured and Unstructured Grids (part 1) | 30 minutes        |               |
+| 3:15 PM  | Intro to FloPy and constructing a first MODFLOW model in Python                      | 45 minutes        | Larsen        |
+| 4:00 PM  | Discretization workflows for constructing Structured and Unstructured Grids (part 1) | 30 minutes        | Larsen        |
 | 4:30 PM  | Wrap up for the Day                                                                  |                   |               |
 
 ### Friday, June 26th
-| Time     | Topic                                                                                            | Duration, Lead    | Lead |
-|----------|--------------------------------------------------------------------------------------------------|-------------------|------|
-| 8:30 AM  | Discretization workflows for constructing Structured and Unstructured Grids (part 2)             | 30 minutes        |      |
-| 9:00 AM  | Workflows for translating geospatial and temporally varying data into model inputs               | 1 hour 30 minutes |      |
-| 10:30 AM | Break                                                                                            | 15 minutes        |      |
-| 10:45 AM | MODFLOW output: post-processing and analysis, Zonebudget                                         | 45 minutes        |      |
-| 11:30 AM | Putting it all together - Class project: building a model in Python from disparate data (part 1) | 30 minutes        |      |
-| 12:00 PM | Lunch                                                                                            | 1 hour            |      |
-| 1:00 PM  | Putting it all together - Class project: building a model in Python from disparate data (part 2) | 3 hours           |      |
-| 4:00 PM  | Project wrap up and debrief                                                                      | 30 minutes        |      |
-| 4:30 PM  | Class ends                                                                                       |                   |      |
+| Time     | Topic                                                                                            | Duration, Lead    | Lead          |
+|----------|--------------------------------------------------------------------------------------------------|-------------------|---------------|
+| 8:30 AM  | Discretization workflows for constructing Structured and Unstructured Grids (part 2)             | 30 minutes        | Larsen        |
+| 9:00 AM  | Workflows for translating geospatial and temporally varying data into model inputs               | 1 hour 30 minutes | Larsen        |
+| 10:30 AM | Break                                                                                            | 15 minutes        |               |
+| 10:45 AM | MODFLOW output: post-processing and analysis, Zonebudget                                         | 45 minutes        | Morway        |
+| 11:30 AM | Putting it all together - Class project: building a model in Python from disparate data (part 1) | 30 minutes        | Morway        |
+| 12:00 PM | Lunch                                                                                            | 1 hour            |               |
+| 1:00 PM  | Putting it all together - Class project: building a model in Python from disparate data (part 2) | 3 hours           | Larsen/Morway |
+| 4:00 PM  | Project wrap up and debrief                                                                      | 30 minutes        | Larsen/Morway |
+| 4:30 PM  | Class ends                                                                                       |                   |               |
 
   *Notes*
-   - Advanced topics that could be covered:
+   - Advanced topics that could also be covered if time permits:
         - Stream capture scenarios 
         - Speeding up slow models with Parallel MODFLOW
         - Custom model boundary conditions and behavior using the MODFLOW API
@@ -64,30 +64,6 @@ We will use an environment file to create a containerized version of Python and 
    - Using a text editor, such as Notepad or Notepad++, create a file called environment.yml. It should contain the information in [this environment file](https://github.com/jlarsen-usgs/CWEMF-modflow-flopy-2026/blob/main/environment.yml). Save this file to your hard drive, preferably in your user home folder so that it can be easily accessed in the next step. (Caution! Notepad will automatically append a .txt suffix to your file name; you don't want this to happen.)
 
      Alternatively, clone this repository and use `environment.yml` directly
-
-   - **For MacOS and Linux users only!** You will need to add additional dependencies to the `environment.yml` file from step 1. The following dependencies are also required:
-     
-     **MacOS**
-     ```
-     - pkg-config
-     - openmpi<5.0.0
-     - gfortran
-     - petsc
-     - netcdf-fortran
-     - meson>=1.1.0
-     - ninja
-     ```
-
-     **Linux**
-     ```
-     - pkg-config
-     - openmpi
-     - gfortran
-     - petsc
-     - netcdf-fortran
-     - meson>=1.1.0
-     - ninja
-     ```
 
 #### 3. Create the `cwemf-modflow` environment
    - Start the miniforge prompt from the Windows start menu (or equivalent on MacOS or Linux) to bring up a terminal.

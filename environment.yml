@@ -11,7 +11,6 @@ dependencies:
   # jupyter dependencies
   - jupyter
   - jupyterlab
-  - jupyterlab_execute_time
 
   # class dependencies
   - dataretrieval
@@ -36,8 +35,4 @@ dependencies:
   - rtree
   - scipy
   - statsmodels
-  - vtk
-
-  - pip:
-    # develop version of FloPy for any cutting edge changes
-    - https://github.com/modflowpy/flopy/archive/develop.zip
+  - flopy
