@@ -18,9 +18,9 @@ Eric Morway, U.S. Geological Survey, Nevada Water Science Center
 | 11:15 AM | Getting started with MODFLOW 6 (Structure, Inputs, and Outputs)                      | 45 minutes        | Morway        |
 | 12:00 PM | Lunch                                                                                | 1 hour            |               |
 | 1:00 PM  | Constructing a first MODFLOW model by hand                                           | 1 hour            | Morway        |
-| 2:00 PM  | Python overview and refresher (Jupyter, Python Basics) (part 1)                      | 1 hour            |               |
+| 2:00 PM  | Python overview and refresher (Jupyter, Python Basics) (part 1)                      | 1 hour            | Larsen        |
 | 2:30 PM  | Break                                                                                | 15 minutes        |               |
-| 2:45 PM  | Python overview and refresher (Pandas, Geopandas) (part 2)                           | 30 minutes        |               |
+| 2:45 PM  | Python overview and refresher (Pandas, Geopandas) (part 2)                           | 30 minutes        | Larsen        |
 | 3:15 PM  | Intro to FloPy and constructing a first MODFLOW model in Python                      | 45 minutes        | Larsen        |
 | 4:00 PM  | Discretization workflows for constructing Structured and Unstructured Grids (part 1) | 30 minutes        | Larsen        |
 | 4:30 PM  | Wrap up for the Day                                                                  |                   |               |
