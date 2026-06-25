@@ -12,7 +12,7 @@ Eric Morway, U.S. Geological Survey, Nevada Water Science Center
 | Time     | Topic                                                                                | Duration          | Lead          |
 |----------|--------------------------------------------------------------------------------------|-------------------|---------------|
 | 8:30 AM  | Introductions & Class Overview                                                       | 30 minutes        | Larsen/Morway |
-| 9:00 AM  | Overview of the groundwater flow equation and MODFLOW CVFD methods                   | 1 hour 15 minutes | Larsen        |
+| 9:00 AM  | Overview of the groundwater flow equation and MODFLOW CVFD methods                   | 1 hour 30 minutes | Larsen        |
 | 10:30 AM | Break                                                                                | 15 minutes        |               |
 | 10:45 AM | MODFLOW history and background                                                       | 45 minutes        | Morway        |
 | 11:15 AM | Getting started with MODFLOW 6 (Structure, Inputs, and Outputs)                      | 45 minutes        | Morway        |
